@@ -1,0 +1,48 @@
+.head {
+    background-image: url("https://images.steamusercontent.com/ugc/11353823650429823851/84D60E9B1FDB223BD282F07ED8B68FFEC7E211B0/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-height: 100%;
+    text-align: center;
+    font-size: 30px; 
+    height: 450px; 
+    padding-top: 50px;
+}
+footer {
+    color: white;
+    padding: 10px 10px 20px 5px;
+    background: #468432;
+    height: 250px;
+}
+.no-bg {
+    background: none;
+}
+div {
+    background: #9AD872;
+}
+.highlight {
+    text-shadow: 5px 5px 5px black;
+    background: red;
+    color: yellow;
+}
+.footer-highlight {
+    background: yellow;
+    color: red;
+}
+img {
+    border: black inset 3px;
+}
+.nav {
+    margin: 30%;
+    background: #FFEF91;
+    text-transform: uppercase;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    background: #FFA02E;
+    text-decoration: underline;
+}
+/*FFA02E  */
