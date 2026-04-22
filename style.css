@@ -1,3 +1,8 @@
+/* class goes here */
+.footer-highlight {
+    background: yellow;
+    color: red;
+}
 .head {
     background-image: /*url("https://i.ibb.co/sp4pBv3N/HELr-L5-Ca-IAA1-Wn-S.jpg");*/ url("https://i.ibb.co/0Vtmdhqg/75tx0vs38gtg1.png");
     background-repeat: no-repeat;
@@ -9,11 +14,6 @@
     height: 450px; 
     padding-top: 20px;
 }
-body {
-    background: #FEFDDF;
-    font-family: Arial;
-    font-size: 20px;
-}
 .head span {
     text-align: center;
     position: absolute;
@@ -21,26 +21,6 @@ body {
     float: right;            
     right: 30%;
     left: 30%;
-}
-footer {
-    color: white;
-    padding: 10px 10px 20px 5px;
-    background: #003049;
-}
-.no-bg {
-    background: none;
-}
-#highlight {
-    text-shadow: 5px 5px 5px black;
-    background: red;
-    color: yellow;
-}
-.footer-highlight {
-    background: yellow;
-    color: red;
-}
-img .no-border {
-    border: black inset 3px;
 }
 .nav {
     display: block;
@@ -50,6 +30,31 @@ img .no-border {
     background: #FFEF91;
     text-transform: uppercase;
 }
+.no-bg {
+    background: none;
+}
+.title {
+    text-align: center;
+    display: block;
+    background: #adadad;
+}
+/* main goes here */
+body {
+    border-radius: 25px 50px 10px;
+    border-collapse: separate;
+    background: #FEFDDF;
+    font-family: Arial;
+    font-size: 20px;
+}
+footer {
+    color: white;
+    padding: 10px 10px 20px 5px;
+    background: #003049;
+}
+img .no-border {
+    border: black inset 3px;
+}
+
 a {
     text-decoration: none;
     border-top: 1px solid blue;
@@ -65,4 +70,10 @@ p {
 }
 div {
     padding: 20px;
+}
+/* Id goes here */
+#highlight {
+    text-shadow: 5px 5px 5px black;
+    background: red;
+    color: yellow;
 }
