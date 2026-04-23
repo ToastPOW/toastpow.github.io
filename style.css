@@ -4,15 +4,17 @@
     color: red;
 }
 .head {
-    background-image: /*url("https://i.ibb.co/sp4pBv3N/HELr-L5-Ca-IAA1-Wn-S.jpg");*/ url("https://i.ibb.co/0Vtmdhqg/75tx0vs38gtg1.png");
+    background-image: /*url("https://i.ibb.co/sp4pBv3N/HELr-L5-Ca-IAA1-Wn-S.jpg");*/ url("https://i.ibb.co/1tS9gfLp/Untitled2-20260423230145.jpg");
+    background-color: black;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: top;
     background-height: 100%;
-    background-position: 80% 0%;
+    background-position: center;
     font-size: 30px; 
     height: 450px; 
     padding-top: 20px;
+   
 }
 .head span {
     text-align: center;
@@ -29,6 +31,14 @@
     margin-right: 20px;
     background: #FFEF91;
     text-transform: uppercase;
+}
+.next-to {
+    position: sticky;
+    right: 25%;
+    float: right;
+    display: block;
+    font-size: 20px;
+    font-weight: normal;
 }
 .no-bg {
     background: none;
@@ -71,17 +81,10 @@ p {
     margin-left: 20%;
     margin-right: 20%;
 }
-.next-to {
-    position: sticky;
-    right: 25%;
-    float: right;
-    display: block;
-    font-size: 20px;
-    font-weight: normal;
-}
 /* Id goes here */
 #highlight {
     text-shadow: 5px 5px 5px black;
     background: red;
     color: yellow;
 }
+@layer .head, div
