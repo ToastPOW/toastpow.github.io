@@ -1,7 +1,12 @@
 /* class goes here */
 .footer-highlight {
-    background: yellow;
-    color: red;
+    background: #C2A56D;
+    color: #000000;
+}
+.h1 {
+    margin: 5px;
+    border-radius: 10px;
+    background: #547A95;
 }
 .head {
     background-image: url("https://i.ibb.co/fYS0RCQc/IMG-0102-20260415-142655-0000.gif");
@@ -25,32 +30,41 @@
     left: 30%;
 }
 .icon {
+    border: none;
     height: 20px;
     display: inline-block;
 }
 .nav {
     display: block;
     margin-top: 10px;
-    margin-left: 20px;
-    margin-right: 20px;
-    background: #FFEF91;
+    margin-left: 5%;
+    margin-right: 5%;
+    background: #003049;
     text-transform: uppercase;
+}
+.nav-icon {
+    display: inline-block;
 }
 .next-to {
     position: sticky;
     right: 25%;
     float: right;
-    display: block;
     font-size: 20px;
     font-weight: normal;
 }
 .no-bg {
     background: none;
 }
+.no-border {
+    border: none;
+}
+.section-1 {
+    clear: right;  
+}
 .title {
     text-align: center;
     display: block;
-    background: #adadad;
+    background: #2C3947;
 }
 /* main goes here */
 a {
@@ -60,13 +74,13 @@ a {
     border-bottom: 1px solid red;
 }
 a:hover {
-    background: #FFA02E;
+    filter: invert(1);
     text-decoration: underline;
 }
 body {
     border-radius: 25px 50px 10px;
     border-collapse: separate;
-    background: #FEFDDF;
+    background: #E8EDF2;
     font-family: Arial;
     font-size: 20px;
 }
@@ -79,8 +93,9 @@ footer {
     padding: 10px 10px 20px 5px;
     background: #003049;
 }
-img .no-border {
-    border: black inset 3px;
+img {
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
 }
 p {
     margin-left: 10%;
@@ -88,8 +103,8 @@ p {
 }
 /* Id goes here */
 #highlight {
+    border-radius: 5px;
     text-shadow: 5px 5px 5px black;
     background: red;
     color: yellow;
 }
-@layer .head, div
