@@ -12,6 +12,26 @@
 
 
 /* class goes here */
+.but-a {
+    color: black;
+    border: none;
+    border-top: none;
+    border-bottom: none;
+    border-left: 10px solid white;
+    border-right: none;
+    border-radius: 10px 0 0 10px;               
+    background: white;
+}
+.but-b {
+    color: black;
+    border: none;
+    border-top: none;
+    border-bottom: none;
+    border-left: 10px solid white;
+    border-right: none;
+    border-radius: 0 10px 10px 0;               
+    background: white;
+}
 .col {
     column-count: 2;
     word-wrap: break-word;
@@ -59,6 +79,19 @@
     padding-bottom: 5px;
     display: inline-block;
 }
+.nav-top {
+    position: fixed;
+    display: flex;
+    justify-content: flex-end;
+    top: 0;
+    left: 0;
+    right: 0;
+    color: white;
+    background: #2C3947;
+    border-radius: 0 0 10px 10px;
+    padding: 10px;
+    z-index: 1;
+}
 .next-to {
     background: white;
     display: flex;
@@ -80,6 +113,7 @@
 
 /* main goes here */
 a {
+    color: white;
     font-weight: bold;
     text-decoration: none;
     border-top: 1px solid blue;
@@ -101,6 +135,7 @@ div {
 }
 footer {
     color: white;
+    font-size: 15px;
     padding: 10px 10px 20px 5px;
     background: #2C3947;
 }
