@@ -40,6 +40,10 @@
     background: #C2A56D;
     color: #000000;
 }
+.gallery img {
+    width: 200px;
+    margin: auto;
+}
 .head {
     background-image: url("https://i.ibb.co/fYS0RCQc/IMG-0102-20260415-142655-0000.gif");
     background-color: black;
