@@ -78,11 +78,6 @@
     background: #2C3947;
     text-transform: uppercase;
 }
-.nav-icon {
-    padding-top: 5px;
-    padding-bottom: 5px;
-    display: inline-block;
-}
 .nav-top {
     position: fixed;
     display: flex;
@@ -103,6 +98,11 @@
 }
 .no-bg {
     background: none;
+}
+.social-icon {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: inline-block;
 }
 .title {
     padding-top: 10px;
