@@ -135,7 +135,6 @@ a {
 }
 a:hover {
     filter: invert(1);
-    text-decoration: underline;
 }
 body {
     background: #E8EDF2;
