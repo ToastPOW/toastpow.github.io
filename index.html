@@ -21,20 +21,21 @@
     <!-- dancing gif -->
      <img src="resource/other/gangnam.gif" style="position: absolute; top: 450px; right: 0; float: right; border: none; width: 300px;" alt="dancing-gif">
     <div class="title">this is the original <span style="font-size: 300%;" id="highlight"> TOAST's </span> <br> website</div> <!-- main title -->
-    <p><audio style="vertical-align: middle;" controls><source src="resource/other/audio/kensuke.mp3" type="audio/mpeg"></source></audio> kensuke.mp3</p>  
+    <p><audio controls><source src="resource/other/audio/kensuke.mp3" type="audio/mpeg"></source></audio> kensuke.mp3</p>  
     <!--social link -->
-    <div class="nav" style="text-align: center;">
+    <div class="nav">
         <div class="social-link"><img class="icon" src="resource/icon/steam.png"><a style="color:blue;" href="https://steamcommunity.com/id/NormalToast_/" target="_blank">Steam</a></div>
         <div class="social-link"><img class="icon" src="resource/icon/discord.png"><a style="color: purple;" href="https://discord.gg/rfzxkW6F" target="_blank">Discord</a></div>
         <div class="social-link"><img class="icon" src="resource/icon/roblox.png"><a style="color: red;" href="https://roblox.com/users/2380890759/profile" target="_blank">Roblox</a></div>
     </div>
     <h1 id="about">About me</h1>
-    <div class="next-to"><img style="width: 200px; margin-right: auto" src="resource/other/profile.jpg" alt="profile">
-        <span style="margin-right: auto">
+    <div class="flex-content">
+        <img class="media" src="resource/other/profile.jpg" alt="profile">
+        <span class="h1-content">
             <ul>
-                <li>A guy with a lot of cool information and creative mind.</li>
+                <li>A senior secondary school student with a creative mind and an outgoing personality</li>
                 <li>Currently studying for the entrance exam of university.</li>
-                <li>My hobby: 
+                <li>My interests: 
                     <ol>
                         <li>Video gaming</li>
                         <li>Programing</li>
@@ -46,23 +47,30 @@
         </span>
     </div>
     <h1 id="favourite">My favourite games</h1>
-    <div class="next-to">
-    <span style="margin: auto"><ul><li>Roblox, including:<ul>
-        <li>Entry Point</li>
-        <li>Dead Rail</li>
-        <li>Hellmet</li>
-        <li>Block Tales</li>
-        <li>...</li>
-    </ul></li>
-    <li>Bloons TD 6</li>
-    <li>Mewgenics</li>
-    <li>Red Dead Redemption series</li>
-    <li>...</li></ul></span>
-    <video style="height: 300px; margin-left: auto" autoplay muted><source src="resource/other/steve-scary.mp4"></video>
-    </div><hr>
+    <div class="flex-content">
+        <span class="h1-content">
+            <ul>
+                <li>Roblox, including:
+                    <ul>
+                        <li>Entry Point</li>
+                        <li>Dead Rail</li>
+                        <li>Hellmet</li>
+                        <li>Block Tales</li>
+                        <li>...</li>
+                    </ul>
+                </li>
+                <li>Bloons TD 6</li>
+                <li>Mewgenics</li>
+                <li>Red Dead Redemption series</li>
+                <li>...</li>
+            </ul>
+        </span>
+        <video class="media" autoplay muted loop><source src="resource/other/steve-scary.mp4"></video>
+    </div>
+    <hr>
     <h1 id="gallery">Gallery</h1>
     <h3>Mewgenics</h3>
-    <div class="gallery" style="display: flex; flex-wrap: wrap;">
+    <div class="gallery">
         <figure><img src="resource/gallery/alice.jpg" alt="cat-named-alice"><figcaption>Alice</figcaption></figure>
         <figure><img src="resource/gallery/draven.jpg" alt="cat-named-draven"><figcaption>Draven</figcaption></figure>
         <figure><img src="resource/gallery/franklin.jpg" alt="cat-named-franklin"><figcaption>Franklin</figcaption></figure>
@@ -73,25 +81,25 @@
         <figure><img src="resource/gallery/young-toast.jpg" alt="young-toast-a"><figcaption>Young Toast A</figcaption></figure>
         <figure><img src="resource/gallery/apple.jpg" alt="apple"><figcaption>Apple of Confident</figcaption></figure>
         <figure><img src="resource/gallery/shockwave-device.jpg" alt="shockwave-device"><figcaption>Shockwave Device</figcaption></figure>
-        <figure><video style="width: 300px; margin: auto" controls><source src="resource/gallery/glass-bridge.mp4"></video><figcaption>Glass Bridge</figcaption></figure>
+        <figure><video class="media" controls><source src="resource/gallery/glass-bridge.mp4"></video><figcaption>Glass Bridge</figcaption></figure>
     </div>
     <hr>
     <h1 id="phrases">Hall of Phrases</h1>
-    <p>You can add your phrase through this form below</p>
+    <p>You can add your phrase through this form below (and wait for me approve it)</p>
     <form style="text-align: center;" action="https://api.web3forms.com/submit" method="post">
+        <input type="hidden" name="access_key" value="70cf6a24-30cb-465c-9a8d-6f484180dc16">
         <input type="text" name="name" size="15" placeholder="Name" required> <br>       
         <input type="text" name="content" size="15" placeholder="Your phrase" required> <br>
-        <input type="hidden" name="access_key" value="70cf6a24-30cb-465c-9a8d-6f484180dc16">
         <input type="submit" value="Send">
         <input type="reset" value="Reset">
     </form>
     <hr>
     <h3>Ow, nothing here yet😢</h3>
     <hr>
-    <img style="width: 90%; display: block; margin: auto" src="resource/other/quote.png" alt="quote">
+    <img class="media" src="resource/other/quote.png" alt="quote">
     <p>this is the end for now, here is a simple math problem for you to solve</p>
-    <div style="border: 2px dashed black; padding: 10px">
-        <img style="display: block; margin: auto; width: 80%;" src="resource/other/math.jpg" alt="box-problem"><span>• English translation:<br> "From a rectangular sheet of metal with dimensions x(m), y(m) with x > 2 and y > 2 and an area of 10m², four equal squares are placed at the four corners and folded to form an open-top rectangular box with a height of 1m. The volume of the box is a function V(x) on the interval (2; +∞). How many vertical asymptotes does the graph of the function y = 1/V(x) have?"</span>
+    <div style="border: 2px dashed black">
+        <img class="media" src="resource/other/math.jpg" alt="box-problem"><span>• English translation:<br> "From a rectangular sheet of metal with dimensions x(m), y(m) with x > 2 and y > 2 and an area of 10m², four equal squares are placed at the four corners and folded to form an open-top rectangular box with a height of 1m. The volume of the box is a function V(x) on the interval (2; +∞). How many vertical asymptotes does the graph of the function y = 1/V(x) have?"</span>
     </div>
     <p>I should learn some JavaScript as well</p>
     <hr>
@@ -99,11 +107,17 @@
 <footer class="col">
     <p class="no-bg">Footer <br> @NormalToast</p>
     <p> Email: <br> normaltoast777@gmail.com</p>
-    <div class="footer-highlight"><p>• Nguyễn Trãi Senior Secondary School<br>• Year of Project creation: 2026 </p></div>
+    <div class="footer-highlight">
+        <p>• Nguyễn Trãi Senior Secondary School
             <br>
-     <p style="margin: 0;"> Feel free to check the source code: <a style="background: black; color: white;" href="https://github.com/ToastPOW/toastpow.github.io" target="_blank">GITHUB</a> <br> or </p>
+            • Year of Project creation: 2026 
+        </p>
+    </div>
+    <br>
+    <p style="margin: 0;"> Feel free to check the source code: <a style="background: black; color: white;" href="https://github.com/ToastPOW/toastpow.github.io" target="_blank">GITHUB</a> 
+        <br> or </p>
     <form action="https://api.web3forms.com/submit" method="post">
-        <p>Tell me your thoughts:)</p>
+        <p style="margin: 0;">Tell me your thoughts:)</p>
         <input type="text" name="name" placeholder="Name" size="5" required><br>
         <input type="text" name="suggestion" placeholder="Your suggestion" size="15" required>
         <input type="submit" value="Send">

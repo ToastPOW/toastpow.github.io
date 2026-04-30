@@ -51,17 +51,17 @@
     color: #000000;
 }
 .gallery img{
-    width: 200px;
+    width: 50%;
+    margin: auto;
+    display: flex; 
+    flex-wrap: wrap;
+}
+.h1-content {
     margin: auto;
 }
 .head {
-    background-image: url("resource/other/cover.gif");
-    background-color: black;
-    background-repeat: no-repeat;
+    background: url("resource/other/cover.gif") black no-repeat center;
     background-size: contain;
-    background-position: top;
-    background-height: 100%;
-    background-position: center;
     font-size: 30px; 
     height: 450px; 
     padding-top: 20px;
@@ -82,12 +82,18 @@
     height: 20px;
     display: inline-block;
 }
+.media {
+    margin: auto;
+    height: 300px;
+    display: block;
+}
 .nav {
     display: block;
     margin-left: 10px;
     margin-right: 10px;
     background: #2C3947;
     text-transform: uppercase;
+    text-align: center;
 }
 .nav-top {
     position: fixed;
@@ -102,7 +108,7 @@
     padding: 10px;
     z-index: 1;
 }
-.next-to {
+.flex-content {
     background: white;
     display: flex;
     flex-wrap: wrap;
@@ -136,6 +142,9 @@ a {
 a:hover {
     filter: invert(1);
 }
+audio {
+    vertical-align: middle;
+}
 body {
     background: #E8EDF2;
     font-family: Arial;
@@ -149,10 +158,12 @@ div {
     border-radius: 10px;
 }
 figcaption {
+    margin: auto;
     text-align: center;
     background: #dddddd;
     border-radius: 0 0 10px 10px;
     font-style: italic;
+    width: 200px;
 }
 footer {
     color: white;
@@ -179,6 +190,7 @@ img {
     border-right: 5px inset black;
     border-bottom: 5px inset black;
     border-radius: 10px;
+
 }
 input {
     border: none;
