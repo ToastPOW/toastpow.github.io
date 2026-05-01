@@ -46,15 +46,18 @@
     column-count: 2;
     word-wrap: break-word;
 }
+.emote {
+    vertical-align: middle;
+    border: none;
+    height: 100px;
+    display: inline-block;
+}
 .footer-highlight {
     background: #C2A56D;
     color: #000000;
 }
 .gallery img{
-    width: 50%;
-    margin: auto;
-    display: flex; 
-    flex-wrap: wrap;
+    width: 200px;
 }
 .h1-content {
     margin: auto;
