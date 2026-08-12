@@ -46,6 +46,12 @@
     column-count: 2;
     word-wrap: break-word;
 }
+.emoji {
+	vertical-align: middle;
+	border: none;
+	height: 30px;
+	display: inline-block;
+}
 .emote {
     vertical-align: middle;
     border: none;
@@ -136,7 +142,7 @@
 
 /* tag goes here */
 a {
-    color: white;
+	color: green;
     font-weight: bold;
     text-decoration: none;
     border-top: 1px solid blue;
@@ -186,8 +192,8 @@ h1 {
 }
 h3 {
     text-align: center;
-    border-left: 50px solid green;
-    border-right: 50px solid purple;
+    border-left: 50px solid blue;
+    border-right: 50px solid red;
 }
 img {
     border-right: 5px inset black;
