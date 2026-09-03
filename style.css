@@ -58,6 +58,10 @@
     height: 100px;
     display: inline-block;
 }
+.event {
+	width: 100%;
+	border: none;
+}
 .footer-highlight {
     background: #C2A56D;
     color: #000000;
@@ -167,12 +171,11 @@ div {
     border-radius: 10px;
 }
 figcaption {
-    margin: auto;
     text-align: center;
     background: #dddddd;
     border-radius: 0 0 10px 10px;
     font-style: italic;
-    width: 200px;
+    width: auto;
 }
 footer {
     color: white;
@@ -197,7 +200,6 @@ h3 {
 }
 img {
     border-right: 5px inset black;
-    border-bottom: 5px inset black;
     border-radius: 10px;
 
 }
