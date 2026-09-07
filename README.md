@@ -1,3 +1,4 @@
 ~~This is just for a school project.~~
 
-This is my personal website now Ow<
+This is my personal website now
+A ToluSoftware product
